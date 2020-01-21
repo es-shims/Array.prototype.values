@@ -3,12 +3,50 @@
 	"version": "0.0.0",
 	"description": "An ES2015 spec-compliant `Array.prototype.values` shim/polyfill/replacement that works as far down as ES3.",
 	"main": "index.js",
+	"type": "commonjs",
+	"exports": {
+		".": [
+			{
+				"import": "./index.mjs",
+				"require": "./index.js",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./polyfill": [
+			{
+				"import": "./polyfill.mjs",
+				"require": "./polyfill.js",
+				"default": "./polyfill.js"
+			},
+			"./polyfill.js"
+		],
+		"./implementation": [
+			{
+				"import": "./implementation.mjs",
+				"require": "./implementation.js",
+				"default": "./implementation.js"
+			},
+			"./implementation.js"
+		],
+		"./shim": [
+			{
+				"import": "./shim.mjs",
+				"require": "./shim.js",
+				"default": "./shim.js"
+			},
+			"./shim.js"
+		],
+		"./package": "./package.json",
+		"./package.json": "./package.json"
+	},
 	"scripts": {
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"prelint": "evalmd README.md",
 		"lint": "eslint .",
-		"tests-only": "tape 'test/**'",
+		"tests-only": "tape 'test/*.js'",
+		"tests-esm": "node test/index.mjs",
 		"test": "npm run tests-only",
 		"posttest": "npx aud"
 	},
