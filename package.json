@@ -44,7 +44,7 @@
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"prelint": "evalmd README.md",
-		"lint": "eslint .",
+		"lint": "eslint --ext=js,mjs .",
 		"tests-only": "tape 'test/*.js'",
 		"tests-esm": "node test/index.mjs",
 		"test": "npm run tests-only",
@@ -80,7 +80,7 @@
 		"node": ">= 0.4"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^15.1.0",
+		"@ljharb/eslint-config": "^16.0.0",
 		"auto-changelog": "^1.16.2",
 		"eslint": "^6.8.0",
 		"evalmd": "^0.0.19",
