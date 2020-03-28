@@ -47,7 +47,7 @@
 		"lint": "eslint --ext=js,mjs .",
 		"tests-only": "tape 'test/*.js'",
 		"tests-esm": "node test/index.mjs",
-		"test": "npm run tests-only",
+		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "npx aud",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -81,7 +81,7 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
-		"auto-changelog": "^1.16.2",
+		"auto-changelog": "^1.16.3",
 		"eslint": "^6.8.0",
 		"evalmd": "^0.0.19",
 		"function-bind": "^1.1.1",
@@ -89,7 +89,7 @@
 		"has-strict-mode": "^1.0.0",
 		"iterate-iterator": "^1.0.1",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.0-next.4"
+		"tape": "^5.0.0-next.5"
 	},
 	"dependencies": {
 		"define-properties": "^1.1.3",
