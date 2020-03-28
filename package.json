@@ -48,7 +48,7 @@
 		"tests-only": "tape 'test/*.js'",
 		"tests-esm": "node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -81,6 +81,7 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
+		"aud": "^1.0.0",
 		"auto-changelog": "^1.16.3",
 		"eslint": "^6.8.0",
 		"evalmd": "^0.0.19",
