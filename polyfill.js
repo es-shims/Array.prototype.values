@@ -20,7 +20,7 @@ module.exports = function getPolyfill() {
 
 		// Chrome 39-45, node 1-4 defines Array#values with the incorrect name, although Array#{keys,entries} have the correct name
 		if (method && method.name !== 'values') {
-			var callBind = require('es-abstract/helpers/callBind');
+			var callBind = require('call-bind');
 			var $original = callBind(method);
 			return function values() {
 				return $original(this); // eslint-disable-line no-invalid-this
