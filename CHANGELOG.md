@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Array.prototype.values/compare/v1.0.0...v1.0.1) - 2020-11-17
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`2b621a9`](https://github.com/es-shims/Array.prototype.values/commit/2b621a9d75fefab2fee196d06ac3dca5ccb1502a)
+- [meta] do not publish github action workflow files [`3708449`](https://github.com/es-shims/Array.prototype.values/commit/370844950737af4dccdf86617461c5adc082f3e2)
+- [Tests] fix ESM tests [`7c3eb4e`](https://github.com/es-shims/Array.prototype.values/commit/7c3eb4e11c2bab5f629b7001d28966c0a3d98785)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`efc1360`](https://github.com/es-shims/Array.prototype.values/commit/efc1360a65f2b238d6117ac6a5be9f0ca3645b6f)
+- [Deps] update `es-abstract`; use `call-bind` where applicable [`4d16a43`](https://github.com/es-shims/Array.prototype.values/commit/4d16a43ace11c59bd555a25e0ef58517cf7edf00)
+- [Tests] run `nyc` on all tests [`e7423a5`](https://github.com/es-shims/Array.prototype.values/commit/e7423a59405bf35aadd80f4c049dd61989057862)
+- [actions] add "Allow Edits" workflow [`5d1329f`](https://github.com/es-shims/Array.prototype.values/commit/5d1329f7e619f2c430c2266fcb1b3ac7efb6d880)
+- [Dev Deps] update `auto-changelog`, `tape` [`0b40bd7`](https://github.com/es-shims/Array.prototype.values/commit/0b40bd73ec6a78f927862261eea253b1dafb3d93)
+- [Dev Deps] update `@ljharb/eslint-config` [`572f6c4`](https://github.com/es-shims/Array.prototype.values/commit/572f6c43372708ea66333b69e34e8103204d025c)
+- [Dev Deps] update `aud`, `auto-changelog` [`82ab9c3`](https://github.com/es-shims/Array.prototype.values/commit/82ab9c3646c01ba87e7477f47938a5568f88c03c)
+- [Tests] only audit prod deps [`357ca4d`](https://github.com/es-shims/Array.prototype.values/commit/357ca4de45e92f2322e60814c190397b768dfe17)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`61160a7`](https://github.com/es-shims/Array.prototype.values/commit/61160a72d132876008d68b5a7008037bc2aa65e8)
+- [Deps] update `es-abstract` [`ffbdcab`](https://github.com/es-shims/Array.prototype.values/commit/ffbdcab964c8687146fa406b8f9e9a26c47df910)
+
 ## v1.0.0 - 2020-01-21
 
 ### Commits
