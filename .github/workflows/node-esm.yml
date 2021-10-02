@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm run tests-esm
+      - uses: codecov/codecov-action@v1
 
   node:
     name: 'node, notable ESM minors'
