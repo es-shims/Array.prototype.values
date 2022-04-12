@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/es-shims/Array.prototype.values/compare/v1.0.2...v1.1.0) - 2022-04-11
+
+### Commits
+
+- [actions] reuse common workflows [`a3bda8b`](https://github.com/es-shims/Array.prototype.values/commit/a3bda8ba79edd9d0f8bc8eb17f3f2313b65cdb62)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`94cce5a`](https://github.com/es-shims/Array.prototype.values/commit/94cce5a30bc55102d8fe2c316805932798c20f78)
+- [actions] update codecov uploader [`df551b4`](https://github.com/es-shims/Array.prototype.values/commit/df551b41c28523f3f4818e6b18a3b9b1f7a2c5be)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`fdbff1b`](https://github.com/es-shims/Array.prototype.values/commit/fdbff1b7ce8e191fe5505261d1174879c053e724)
+- [New] `shim`/`auto`: add `values` to `Symbol.unscopables` [`15e4beb`](https://github.com/es-shims/Array.prototype.values/commit/15e4beb96208a02097df86a72569de90dc3824d0)
+- [Deps] update `es-abstract` [`223589b`](https://github.com/es-shims/Array.prototype.values/commit/223589ba4995ddbc01dacb75d9de7974ec7ca141)
+- [Deps] update `es-abstract` [`bafc817`](https://github.com/es-shims/Array.prototype.values/commit/bafc8172f6db7af78d8d90d93ae85f9ee13c9c93)
+
 ## [v1.0.2](https://github.com/es-shims/Array.prototype.values/compare/v1.0.1...v1.0.2) - 2021-10-01
 
 ### Commits
