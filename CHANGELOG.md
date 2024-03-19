@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/es-shims/Array.prototype.values/compare/v1.1.2...v1.1.3) - 2024-03-18
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`b8c0400`](https://github.com/es-shims/Array.prototype.values/commit/b8c04009724772c253f066f6149444f8be54825e)
+- [meta] remove useless ESM [`2a7d1cc`](https://github.com/es-shims/Array.prototype.values/commit/2a7d1cc9155ef5bdf31e2fee90e094afa5bf6b5c)
+- [Deps] update `call-bind`, `es-create-array-iterator` [`161c8a5`](https://github.com/es-shims/Array.prototype.values/commit/161c8a5d780d6cec1dbd2cb7bb1d032e950458de)
+- [actions] remove redundant finisher [`e095b8c`](https://github.com/es-shims/Array.prototype.values/commit/e095b8c752ad2761186d9f28c9b77af8dc7e1569)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `es-create-array-iterator`, `es-shim-unscopables` [`d8a8ea3`](https://github.com/es-shims/Array.prototype.values/commit/d8a8ea385fc78847af8c8bac7ded17ad1ae11e4d)
+- [Refactor] use `es-object-atoms` instead of `es-abstract` [`7fe7bad`](https://github.com/es-shims/Array.prototype.values/commit/7fe7bad4ce4dd7f9814f1c13de4cd3308ce9855b)
+- [Dev Deps] update `aud`, `function-bind`, `tape` [`6c6092f`](https://github.com/es-shims/Array.prototype.values/commit/6c6092f78c0150d2bd3967fd44ec780e7012a7fe)
+- [Dev Deps] update `tape` [`b352fb7`](https://github.com/es-shims/Array.prototype.values/commit/b352fb72163b6d70448e6ec181b32f76eda81f50)
+- [Dev Deps] update `tape` [`d2007fe`](https://github.com/es-shims/Array.prototype.values/commit/d2007fe9d371e1ddd5c6a4c7cb4749eb111b6a51)
+
 ## [v1.1.2](https://github.com/es-shims/Array.prototype.values/compare/v1.1.1...v1.1.2) - 2023-08-28
 
 ### Commits
